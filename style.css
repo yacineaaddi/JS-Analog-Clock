@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #f6f7fb;
+  --white-color: #fff;
+  --black-color: #18191a;
+  --red-color: #e74c3c;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+}
+
+body.dark {
+  --primary-color: #242526;
+  --white-color: #18191a;
+  --black-color: #fff;
+  --red-color: #e74c3c;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.container .clock {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--white-color);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1), 0 25px 45px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.clock label {
+  position: absolute;
+  transform: rotate(calc(var(--i) * (360deg / 12)));
+  inset: 20px;
+  text-align: center;
+}
+
+label span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--black-color);
+  transform: rotate(calc(var(--i) * (-360deg / 12)));
+}
+
+.container .indicator {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicator::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  border-radius: 50%;
+  background: var(--black-color);
+  border: 4px solid var(--red-color);
+}
+
+.indicator .hand {
+  position: absolute;
+  height: 130px;
+  width: 4px;
+  bottom: 0;
+  border-radius: 25px;
+  transform-origin: bottom;
+  background: var(--red-color);
+}
+
+.hand.hour {
+  height: 100px;
+  width: 8px;
+  background: var(--black-color);
+  transition: all 0.6s ease;
+}
+
+.hand.minutes {
+  height: 120px;
+  width: 5px;
+  background: var(--black-color);
+  transition: all 0.6s ease;
+}
+
+.mode-switch {
+  color: var(--white-color);
+  font-size: 22px;
+  font-weight: 400;
+  border-radius: 10px;
+  background: var(--black-color);
+  display: inline-block;
+  padding: 10px 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+
