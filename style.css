@@ -120,4 +120,26 @@ label span {
   cursor: pointer;
 }
 
+/* Responsive CSS for mobile version---------*/
 
+@media only screen and (max-width: 450px) {
+  
+  .container .clock {
+    height: 300px;
+    width: 300px;
+  }
+  .indicator .hand {
+    height: 90px;
+    width: 2.5px;
+  }
+
+  .hand.hour {
+    height: 55px;
+    width: 7px;
+  }
+
+  .hand.minutes {
+    height: 90px;
+    width: 5px;
+  }
+}
