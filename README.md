@@ -1,1 +1,1 @@
-README file : Analog Clock Project :
+Analog Clock Project
