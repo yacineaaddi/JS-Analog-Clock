@@ -1,35 +1,34 @@
-# JS Dice Roll Game
+# JS Analog Clock
 
-A simple and fun two-player dice game built with HTML, CSS, and JavaScript. Players take turns rolling a dice to accumulate points. The first player to reach the winning score wins the game!
+A simple and elegant analog clock built using HTML, CSS, and JavaScript. This project visually demonstrates time in real-time using animated clock hands.
 
 ## Demo
 
-*A live demo link will be added here soon.*
+_A live demo link will be added here soon._
 
 ## Features
 
-* **Turn-Based Gameplay** : Two players alternate turns rolling a dice.  
+- **Real-Time Display** : Continuously updates to show the current time.
 
-* **Dice Roll Logic** : Random dice rolls using JavaScript simulate real gameplay. 
+- **Smooth Animation** : Clock hands move smoothly and accurately.
 
-* **Score Tracking** : Each player's current and total scores are tracked and displayed.  
+- **Minimal UI** : Clean, centered layout for focus on the analog clock design.
 
-* **Win Condition** : The game ends when a player reaches the target score.  
-
-* **Reset Functionality** : A "New Game" button resets the scores and restarts the game.
+- **Responsive Design** : Works well on various screen sizes.
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yacineaaddi/JS-Dice-Roll-Game.git
+   git clone https://github.com/yacineaaddi/JS-Analog-Clock.git
+
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd JS-Dice-Roll-Game
+   cd JS-Analog-Clock
    ```
 
 3. Open the `index.html` file in your browser:
@@ -42,27 +41,21 @@ A simple and fun two-player dice game built with HTML, CSS, and JavaScript. Play
 
 ## Technologies Used
 
-* **HTML** : Structures the layout and content of the application.
+- **HTML**: Provides the structure of the clock elements.
 
-* **CSS** : Styles the game interface for a responsive and engaging design.
+- **CSS**: Styles the clock face and animates the hands.
 
-* **JavaScript** : Implements game mechanics including dice rolling, score updates, turn switching, and win detection.
+- **JavaScript**: Controls the clock functionality and updates time dynamically.
 
 ## Folder Structure
 
 ```
-JS-Dice-Roll-Game/
+JS-Analog-Clock/
 ├── index.html
 ├── style.css
 ├── script.js
-├── dice-1.png
-├── dice-2.png
-├── dice-3.png
-├── dice-4.png
-├── dice-5.png
-├── dice-6.png
-├── LICENSE
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ## Contributing
@@ -77,4 +70,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Yacine Aaddi - [yacineaaddi@gmail.com](mailto:yacineaaddi@gmail.com)
 
-Project Link: [https://github.com/yacineaaddi/JS-Dice-Roll-Game](https://github.com/yacineaaddi/JS-Dice-Roll-Game)
+Project Link: [https://github.com/yacineaaddi/JS-Analog-Clock](https://github.com/yacineaaddi/JS-Dice-Roll-Game)
