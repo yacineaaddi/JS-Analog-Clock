@@ -1,4 +1,4 @@
-# 📦 JS Analog Clock
+# 🚀 JS Analog Clock
 
 A simple and elegant analog clock built using HTML, CSS, and JavaScript. This project visually demonstrates time in real-time using animated clock hands.
 
