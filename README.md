@@ -1,12 +1,12 @@
-# JS Analog Clock
+# 📦 JS Analog Clock
 
 A simple and elegant analog clock built using HTML, CSS, and JavaScript. This project visually demonstrates time in real-time using animated clock hands.
 
-## Demo
+## 🔗 Demo
 
 _A live demo link will be added here soon._
 
-## Features
+## ✨ Features
 
 - **Real-Time Display** : Continuously updates to show the current time.
 
@@ -16,7 +16,7 @@ _A live demo link will be added here soon._
 
 - **Responsive Design** : Works well on various screen sizes.
 
-## Installation
+## ⚙️ Installation
 
 1. Clone the repository:
 
@@ -39,15 +39,15 @@ _A live demo link will be added here soon._
 
    Or simply double-click the `index.html` file.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- **HTML**: Provides the structure of the clock elements.
+- 💻 **HTML**: Provides the structure of the clock elements.
 
-- **CSS**: Styles the clock face and animates the hands.
+- 🎨 **CSS**: Styles the clock face and animates the hands.
 
-- **JavaScript**: Controls the clock functionality and updates time dynamically.
+- ⚙️ **JavaScript**: Controls the clock functionality and updates time dynamically.
 
-## Folder Structure
+## 📁 Folder Structure
 
 ```
 JS-Analog-Clock/
@@ -58,15 +58,15 @@ JS-Analog-Clock/
 └── .gitignore
 ```
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
+## 📬 Contact
 
 Yacine Aaddi - [yacineaaddi@gmail.com](mailto:yacineaaddi@gmail.com)
 
